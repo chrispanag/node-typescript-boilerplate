@@ -8,6 +8,7 @@ function helloWorld(req: Request, res: Response) {
     });
 }
 
+// Routes
 router.get('/hello', helloWorld);
 
 export default router;

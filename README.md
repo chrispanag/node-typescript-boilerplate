@@ -1,5 +1,11 @@
 # Boilerplate Nodejs App
 
+## Suggested VSCode Plugins
+
+1. ESLint
+2. Prettier
+3. DotENV
+
 ## How to start
 
 1. Create a copy of `example.env` named `.env`
