@@ -9,8 +9,9 @@
 ## How to start
 
 1. Create a copy of `example.env` named `.env`
-2. `yarn run dev`
-3. `Start adding stuff`
+2. `yarn install`
+3. `yarn run dev`
+4. `Start adding stuff`
 
 ## Commands
 
