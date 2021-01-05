@@ -1,7 +1,9 @@
 import express, { NextFunction, Request, Response } from 'express';
 import cors from 'cors';
 import bodyParser from 'body-parser';
+import compression from 'compression'; // compresses requests
 
+import env from './secret';
 import helloWorld from './controllers/hello-world';
 
 /**
@@ -15,8 +17,10 @@ function loggingMiddleware(req: Request, res: Response, next: NextFunction) {
 const app = express();
 
 // Middlewares
+app.set('port', env.port);
 app.use(loggingMiddleware);
 app.use(cors());
+app.use(compression());
 app.use(bodyParser.json());
 
 // Controllers
