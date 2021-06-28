@@ -2,7 +2,7 @@
     "name": "node-typescript-boilerplate",
     "version": "1.0.0",
     "description": "A boilerplate for a nodejs backend application written in Typescript",
-    "main": "index.js",
+    "main": "dist/server.js",
     "author": "Christos Panagiotakopoulos <chrispanag@gmail.com>",
     "license": "MIT",
     "private": true,
