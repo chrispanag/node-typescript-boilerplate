@@ -1,5 +1,16 @@
 # Boilerplate Nodejs App
 
+A simple boilerplate code for bootstrapping a NodeJS Express backend in Typescript.
+
+## Batteries included
+
+* cors
+* body-parser
+* compress
+* .env environment variables
+* simple console logging for requests
+* prettier, eslint and nodemon for rapid development
+
 ## Suggested VSCode Plugins
 
 1. ESLint
@@ -34,3 +45,12 @@ Just copy the hello-world.ts file and start working. Remember afterwards to add 
 If you want to add mongodb, install the necessary packages (mongodb, mongoose with their respective types) and proceed. For SQL, I suggest typeorm, with the respective driver (mysql, postgres etc).
 
 You will also need to create a new database. The easiest way to achieve that is to create a docker instance. But you can always connect to an already existing mongodb (see [mongodb atlas](https://www.mongodb.com/cloud/atlas)).
+
+## Todo
+
+* Add a testing framework
+* Add github continuous integration capability
+
+## License
+
+[MIT](LICENSE)
