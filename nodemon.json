@@ -1,7 +1,6 @@
 {
-    "ignore": ["**/*.spec.ts", ".git", "node_modules"],
-    "watch": ["src"],
-    "exec": "yarn run build && yarn start",
-    "ext": "ts",
-    "delay": 1000
+    "watch": ["dist"],
+    "ext": "js",
+    "exec": "yarn start",
+    "delay": 0
 }
