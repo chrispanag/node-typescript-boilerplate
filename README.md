@@ -49,7 +49,6 @@ You will also need to create a new database. The easiest way to achieve that is 
 ## Todo
 
 * Add a testing framework
-* Add github continuous integration capability
 
 ## License
 
