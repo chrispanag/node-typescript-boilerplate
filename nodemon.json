@@ -2,5 +2,5 @@
     "watch": ["dist"],
     "ext": "js",
     "exec": "yarn start",
-    "delay": 0
+    "delay": 1
 }

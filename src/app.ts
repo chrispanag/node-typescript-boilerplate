@@ -3,7 +3,7 @@ import cors from 'cors';
 import { json as bodyParser } from 'body-parser';
 import compression from 'compression'; // compresses requests
 
-import env from './secret';
+import env from './env';
 import helloWorld from './controllers/hello-world';
 
 /**
