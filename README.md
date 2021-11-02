@@ -34,7 +34,7 @@ A simple boilerplate code for bootstrapping a NodeJS Express backend in Typescri
 
 ### Where do I add environment variables?
 
-All of the env variables are handled within the `secret.ts` file. This file exports the env variable that includes all the environment variables imported. When you add a new environment variable, make sure to add it to the `.env` file and to the `example.env` file for sharing it with others. **Remember to only put sensitive data on the `.env` file and not on the `example.env` one**.
+All of the env variables are handled within the `env.ts` file. This file exports the env variable that includes all the environment variables imported. When you add a new environment variable, make sure to add it to the `.env` file and to the `example.env` file for sharing it with others. **Remember to only put sensitive data on the `.env` file and not on the `example.env` one**.
 
 ### How do I add a new controller?
 
