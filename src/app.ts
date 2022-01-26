@@ -5,12 +5,13 @@ import compression from 'compression'; // compresses requests
 
 import env from './env';
 import helloWorld from './controllers/hello-world';
+import { debug } from './utilities/debug';
 
 /**
  * This is a middleware example, and helps with debugging by outputing data for each request on the console.
  */
 function loggingMiddleware(req: Request, res: Response, next: NextFunction) {
-    console.log(`${req.method}: ${req.originalUrl}`);
+    debug(`${req.method}: ${req.originalUrl}`);
     next();
 }
 
