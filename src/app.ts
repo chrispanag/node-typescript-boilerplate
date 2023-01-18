@@ -1,7 +1,6 @@
 import express, { NextFunction, Request, Response } from 'express';
 import cors from 'cors';
 import { json as bodyParser } from 'body-parser';
-import compression from 'compression'; // compresses requests
 
 import env from './env';
 import helloWorld from './controllers/hello-world';
@@ -21,7 +20,6 @@ const app = express();
 app.set('port', env.port);
 app.use(loggingMiddleware);
 app.use(cors());
-app.use(compression());
 app.use(bodyParser());
 
 // Controllers
